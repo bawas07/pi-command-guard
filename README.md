@@ -43,13 +43,13 @@ Shows thinking level and current model in the footer status bar.
 ### From GitHub
 
 ```bash
-pi install git:github.com/bawas/command-guard
+pi install git:github.com/bawas07/pi-command-guard
 ```
 
 Pin to a specific version:
 
 ```bash
-pi install git:github.com/bawas/command-guard@v1.0.0
+pi install git:github.com/bawas07/pi-command-guard@v1.0.0
 ```
 
 ### From npm (coming soon)
@@ -67,7 +67,7 @@ pi install ./path/to/command-guard
 ## Uninstall
 
 ```bash
-pi remove git:github.com/bawas/command-guard
+pi remove git:github.com/bawas07/pi-command-guard
 ```
 
 ## License
