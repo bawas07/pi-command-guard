@@ -1,0 +1,23 @@
+{
+  "name": "command-guard",
+  "version": "1.0.0",
+  "description": "Pi extension that guards against dangerous bash commands and protects sensitive files from modification",
+  "keywords": ["pi-package", "pi-extension", "security", "guard"],
+  "author": "Zoych",
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": ["./guard.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bawas/command-guard"
+  },
+  "files": [
+    "guard.ts",
+    "README.md"
+  ]
+}
